@@ -3,10 +3,17 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from polls.models import Choice, Question
 
+import logging
+
+logger = logging.getLogger('mylogger')
+
 
 def index(request):
     latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
+
+    logger.info("LOGGER TEST!!!")
+
     return render(request, 'polls/index.html', context)
 
 
