@@ -34,5 +34,5 @@ model변경될 경우 변경사항 추출
 <hr/>
 서버 run
 <hr/>
-> phthon3 manage.py runserver
+> python3 manage.py runserver
 <hr/>
