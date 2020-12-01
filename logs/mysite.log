@@ -1,0 +1,7 @@
+[01/Dec/2020 18:23:20] INFO [polls.views:17] LOGGER TEST!!!
+[01/Dec/2020 18:23:25] INFO [polls.views:17] LOGGER TEST!!!
+[01/Dec/2020 18:24:10] DEBUG [polls.views:35] vote().question_id: 1
+[01/Dec/2020 18:24:29] DEBUG [polls.views:35] vote().question_id: 1
+[01/Dec/2020 18:25:17] DEBUG [polls.views:35] vote().question_id: 1
+[01/Dec/2020 18:26:21] DEBUG [polls.views:35] vote().question_id: 4
+[01/Dec/2020 18:26:22] DEBUG [polls.views:35] vote().question_id: 4
