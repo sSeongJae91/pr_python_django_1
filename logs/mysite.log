@@ -5,3 +5,6 @@
 [01/Dec/2020 18:25:17] DEBUG [polls.views:35] vote().question_id: 1
 [01/Dec/2020 18:26:21] DEBUG [polls.views:35] vote().question_id: 4
 [01/Dec/2020 18:26:22] DEBUG [polls.views:35] vote().question_id: 4
+[01/Dec/2020 22:52:55] INFO [polls.views:17] LOGGER TEST!!!
+[01/Dec/2020 22:53:07] INFO [polls.views:17] LOGGER TEST!!!
+[01/Dec/2020 22:55:40] INFO [polls.views:17] LOGGER TEST!!!
